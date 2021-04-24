@@ -55,6 +55,13 @@ public class Task1 {
         }
         return count;
     }
+    
+    public static boolean findSubString(String s, String sub)
+    {
+       
+        //System.out.println(s.contains(sub));
+        return s.contains(sub);
+    }
     /**
      * @param args the command line arguments
      */
@@ -62,10 +69,13 @@ public class Task1 {
         // TODO code application logic here
         Scanner obj = new Scanner(System.in);
         String s;
-        System.out.println("Enter a String to count its words, vowels, punctuation marks");
+        String sub;
+        System.out.println("Enter a String:");
         s = obj.nextLine();
+        System.out.println("Enter a sub String:");
+        sub = obj.nextLine();
         System.out.println("So, the total words in String are: " +wordCounter(s)+"\ntotal number of vowels are: " +vowelcounter(s)+"\ntotal number of punctuation marks are: " + puncCount(s));
-        
+        System.out.println("If string contain sub String, it returns true otherwise false:  "+findSubString(s, sub));
         
     }
     
