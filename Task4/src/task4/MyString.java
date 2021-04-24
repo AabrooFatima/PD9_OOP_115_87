@@ -126,5 +126,74 @@ public class MyString
         }
         return o;
     }
+    /**
+        To make username for string
+        @param s string to be manipulate
+        @return username 
+    */
+    public String generateUserName(String s)
+    {
+        int n= spaceCounter(s);
+        int m=0;
+        String r="";
+        if(n==1)
+        {
+            for(int i=0;i<s.length();i++)
+            {
+                if( s.charAt(i) != ' ')
+                {
+                    r= r+ s.charAt(i);
+                    
+                }
+                else
+                {
+                    m=i;
+                    break;
+                }
+            }
+            r= r+"_115";
+            return r;
+        }
+        else if(n==2)
+        {
+            for(int i=0;i<s.length();i++)
+            {
+                if(s.charAt(i) != ' ')
+                {
+                    r=r+s.charAt(i);
+                }
+                else
+                {
+                    m=i;
+                    break;
+                }
+            }
+            r= r+"_";
+            for(int i=m+1;i<s.length();i++)
+            {
+                if(s.charAt(i) !=' ')
+                {
+                    r= r+s.charAt(i);
+                }
+                else
+                {
+                    break;
+                }
+                     
+            }
+            r= r+ "115";
+        }
+        else if(n==0)
+        {
+            r= r +s+"__83";
+            return r;
+        }
+        else
+        {
+            
+        }
+        
+        
+    }
 }    
 
