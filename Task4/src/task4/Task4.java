@@ -16,10 +16,10 @@ public class Task4 {
 
     public static void main(String[] args) {
         // TODO code application logic here
-       /* String s;
+      /*  String s;
         Scanner obj = new Scanner(System.in);
         System.out.println("Ente string");
-          s= obj.nextLine();
+         s= obj.nextLine();
          MyString  m = new MyString();
          System.out.println("Capital: " +m.CapitalCounter(s));
          System.out.println("Small: " +m.SmallCounter(s));
