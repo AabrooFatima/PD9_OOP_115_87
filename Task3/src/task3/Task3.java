@@ -22,7 +22,7 @@ public class Task3 {
      */
   public static String ridMultipleBlank(String s)
   {
-     String s2 = s.replaceAll("\'s+", "  ");
+     String s2 = s.replaceAll("\\s+", " ");
      return s2;
   }
   /**
