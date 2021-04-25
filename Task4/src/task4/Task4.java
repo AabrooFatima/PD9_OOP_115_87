@@ -16,7 +16,7 @@ public class Task4 {
 
     public static void main(String[] args) {
         // TODO code application logic here
-      /*  String s;
+        String s;
         Scanner obj = new Scanner(System.in);
         System.out.println("Ente string");
          s= obj.nextLine();
@@ -26,7 +26,9 @@ public class Task4 {
          System.out.println(" a has occured: " +m.hasOccurred('a', s));
          System.out.println("Start or enf with sem: " +m.EndWithSame(s));
          System.out.println("Palindrome: " +m.isPalindrome(s));
-         System.out.println("Spaces are : " +m.spaceCounter(s));*/
+         System.out.println("Spaces are : " +m.spaceCounter(s));
+         System.out.println("Username is : " +m.generateUserName(s));
+         
     }
     
 }
