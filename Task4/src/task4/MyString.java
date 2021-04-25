@@ -190,9 +190,18 @@ public class MyString
         }
         else
         {
-            
+            for(int i=0;i<s.length();i++)
+            {
+                if(s.charAt(i) !=' ')
+                {
+                    r= r+s.charAt(i);
+                }
+                else
+                    break;
+            }
+            r= r+"-83";
         }
-        
+        return r;
         
     }
 }    
