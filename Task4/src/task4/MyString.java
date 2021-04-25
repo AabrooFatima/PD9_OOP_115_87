@@ -8,7 +8,7 @@ package task4;
     @author Aabroo Fatima
 */
 
-public  class MyString 
+public class MyString 
 {
     /**
         Space in a string 
@@ -190,11 +190,10 @@ public  class MyString
         }
         else
         {
-            r = r +"@"+s;
-            return r;
+            
         }
         
-       
+        
     }
 }    
 
